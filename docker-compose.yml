@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    dotnetapp:
+        image: microsoft/dotnet:latest
+        ports:
+            - '5000:5000'
+        command: 'bash -c "cd /app && dotnet restore && dotnet build && dotnet run"'
+        volumes: 
+            - .:/app
