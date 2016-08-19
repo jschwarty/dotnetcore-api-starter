@@ -1,9 +1,24 @@
 # A minimal starter pack for a .Net Core api
 
 Download the zip of this repository and create your own
-project. Requires **.Net Core 1.0**.
+project. Requires **Docker** or **.Net Core 1.0**.
 
-## Local initialization
+## Local initialization (docker)
+
+1. Run docker compose up
+
+```
+docker-compose up
+```
+
+2. Open browser
+
+```
+http://localhost:5000/info
+```
+
+
+## Local initialization (dotnet installed)
 
 1. Restore the packages
 
