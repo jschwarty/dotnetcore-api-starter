@@ -1,9 +1,13 @@
 # A minimal starter pack for a .Net Core api
 
 Download the zip of this repository and create your own
-project. Requires **Docker** or **.Net Core 1.0**.
+project. 
+Requires **[Docker](http://www.docker.com/products/docker#/)** 
+or **[.Net Core 1.0](https://www.microsoft.com/net/core#windows)**.
 
 ## Local initialization (docker)
+
+(*If you are on Windows, you may need to enable Docker access to your filesystem first*)
 
 1. Run docker compose up
 
